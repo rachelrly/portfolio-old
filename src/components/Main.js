@@ -1,11 +1,13 @@
 import React from 'react';
+import Nav from './Nav'
 
 function Main(){
 
 return (
     <section>
-    <h2>Main</h2>
+    <Nav />
     </section>
+   
 )
 
 }
