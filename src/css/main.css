@@ -21,7 +21,10 @@ main{
     color: var(--colors-black);
     background-color: var(--colors-off-white);
     font-family: var(--font);
+}
 
+div{
+    width: inherit;
 }
 
 header{
@@ -95,7 +98,7 @@ section{
     justify-self: flex-start;
     display: flex;
     flex-direction: column;
-    width: inherit;
+    width: 100%;
     padding: var(--spacer-lg);
     justify-content: flex-start;
     height: inherit;
@@ -106,7 +109,6 @@ section{
 .rachel-image{
     border-radius: 50%;
     width: 30%;
-    border: 2px solid var(--colors-black);
 }
 
 /*STYLES FOR FORM ELEMENTS*/

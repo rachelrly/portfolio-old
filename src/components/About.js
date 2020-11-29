@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import Me from '../rachel_reilly.jpg'
+import Me from '../images/rachel_reilly.jpg'
+import {about} from '../store.json';
 
 function About(){
 
