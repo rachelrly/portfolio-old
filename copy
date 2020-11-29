@@ -1,0 +1,33 @@
+Sliced is an app that allows users to store recipes and scale them up or down based on their needs. 
+The app uses a string parsing algorithm that picks up numbers and certain words at the beginning of a line.
+When a user creates a new recipe, they can view how their text is being parsed below in the preview. 
+
+Users can view their recipes and use the slider to scale the measurements between 1/4 and 2 times the original amount.
+Some units, including tablespoons and cups, scale down to smaller units with the amounts. 
+Amounts divisible by 1/8 are displayed in fractions, and decimals are rounded to the third place. 
+
+To try out Sliced, log in with these credentials: test@gmail.com | test-password. 
+View other people's recipes to test the scaling feature or click the plus at the top to make your own. 
+ 
+
+
+Petful is an app that simulates an adoption agency that only has room for one dog and one cat at a time. This app uses the queue data structure to temporarily store data on the users waiting to adopt and provide a continuous loop of cats and dogs. 
+
+Once the user is in line to adopt, a pet gets adopted and replaced in the queue every five seconds. When the user is at the front of the line, they can adopt the current cat, dog, or both. Once it is the user's turn to adopt, a new person is added to the queue every five seconds. 
+
+To try Petful, click on 'Adopt' and add your name to the queue.
+
+
+
+Spaced Repetition is a language learning app that uses the spaced repetition technique to generate a sequence of Latin vocabulary words. If a word is answered incorrectly, it moves one place back in the list. Each time it is answered correctly, it moves twice as far back in the list as before. 
+
+The spaced repetition technique is implemented using a linked list data structure. Each time a guess is made, a linked list is recursively generated on the api based on the 'next' pointer stored in the database. If a word is answered correctly, it's 'memory value' is doubled, and it moves back that many places in the list. If it's answered incorrectly, the word's memory value is reset to one, and it moves back one place in the list. Then the database is updated to reflect the movement of data in the linked list. 
+
+To try out this program (and learn some Latin vocab), create an account or log in with these credentials: 'horatia' | 'pass' and click 'Start Learning'. 
+
+
+
+Init 
+
+Init is a social media site for developers to share their work. Users can make posts with images, links, and a description. Users can follow other users.
+Users can view all the posts of the other users they follow in the feed, or they can view any user's post on their user profile.

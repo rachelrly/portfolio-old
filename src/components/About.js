@@ -8,6 +8,10 @@ return (
     <section>
     <h2>About</h2>
     <img className='rachel-image' src={Me} />
+    <article>
+    <p></p>
+
+    </article>
     </section>
     </Fragment>
 )
