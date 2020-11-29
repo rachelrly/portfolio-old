@@ -138,7 +138,9 @@ input:focus, textarea:focus{
 /*END FORM STYLES*/
 
 
-
+.screenshot{
+    width: 200px;
+}
 
 @media all and (min-width: 500px){
  header{
