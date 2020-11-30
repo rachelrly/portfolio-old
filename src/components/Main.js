@@ -1,13 +1,11 @@
 import React from 'react';
-import Nav from './Nav'
+import Nav from './Nav';
+import '../css/Main.css';
 
 function Main(){
 
 return (
-    <section>
-    <Nav />
-    </section>
-   
+   <section></section>
 )
 
 }

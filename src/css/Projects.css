@@ -1,0 +1,74 @@
+
+
+
+
+
+
+.project-item{
+    height: 200px;
+    background-image: url(../images/petful-adopted.png);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+}
+
+.petful-adopted{
+    background-image: url(../images/petful-adopted.png);
+}
+
+.petful-home{
+    background-image: url(../images/petful-home.png);
+}
+
+.petful-register{
+    background-image: url(../images/petful-register.png);
+}
+
+.petful-queue{
+    background-image: url(../images/petful-queue.png);
+}
+
+.sliced-login{
+    background-image: url(../images/sliced-login.png);
+}
+
+.sliced-add-recipe{
+    background-image: url(../images/sliced-add-recipe.png);
+}
+
+.sliced-scale-up{
+    background-image: url(../images/sliced-scale-up.png);
+}
+
+.sliced-scale-down{
+    background-image: url(../images/sliced-scale-down.png);
+}
+
+.spaced-repetition-register{
+    background-image: url(../images/spaced-repetition-register.png);
+}
+
+.spaced-repetition-word-list{
+    background-image: url(../images/spaced-repetition-word-list.png);
+}
+.spaced-repetition-word{
+    background-image: url(../images/spaced-repetition-word.png);
+}
+.spaced-repetition-correct{
+    background-image: url(../images/spaced-repetition-correct.png);
+}
+.spaced-repetition-incorrect{
+    background-image: url(../images/spaced-repetition-incorrect.png);
+}
+
+.project-container{
+    width: inherit;
+    background: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.screenshots-wrapper{
+    width: inherit;
+    display: flex;
+}

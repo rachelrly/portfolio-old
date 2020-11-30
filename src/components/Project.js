@@ -10,7 +10,7 @@ function Project(props){
 
         {
             toggleOpen
-        ? <div className='project-wrapper'>
+        ? <div>
             {props.content.map((c, index) => <div className='paragraph-wrapper project-item' key={index}><p className='project-item project-p'>{c}</p></div>)}
             {props.images.map((i, index) => <Screenshot key={index} {...i}/>)}
         </div>

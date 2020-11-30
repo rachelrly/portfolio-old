@@ -1,11 +1,11 @@
 import React from 'react'
-
+import '../css/Projects.css'
 
 function Screenshot(props){
 
     return(
         <div className='screenshot-wrapper project-item'>
-            <img src={require(`../images${props.path}`)} alt={props.alt} className='screenshot'/>
+        
         </div>
     )
 }
