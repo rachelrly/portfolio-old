@@ -12,3 +12,9 @@ h1{
     animation-name: rachel;
     animation-duration: 2s;
 }
+
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
